@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--länk reset dok css-->
+    <!--link reset css, funkar inte, hur skriva korrekt? eller ta bort-->
+    <!--<script src="https://gist.github.com/DavidWells/18e73022e723037a50d6.js"></script>-->
+
+    <!--link normalize css-->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,35 +17,35 @@
 <body>
     <nav>
         <div class="container-logo">
-            <img src="images/Bitmap-logo.png" alt="small logo" width="31.17px" height="32px">
+            <img class="img-logo"  src="images/Bitmap-logo.png" alt="small logo" width="30px" height="30px">
             <img src="images/Productly-name-logo.png" alt="logo name" width="143.12px" height="28.97px">
         </div>
         <div class="navigation-other-pages">
-            <ol>
+            <ul class="list-navigation-other-pages">
                 <li>Product</li>
                 <li>Customers</li>
                 <li>Pricng</li>
                 <li>Resources</li>
-            </ol>
+            </ul>
         </div>
-        <div class="btn-sign">
-            <button class="sign-in"></button>
-            <button class="sign-up"></button>
+        <div class="btn-nav">
+            <button class="btn-nav-sign-in">Sign In</button>
+            <button class="btn-nav-sign-up">Sign Up</button>
         </div>
     </nav>
     <header>
         <div class="left-side">
             <h1>The Design Thinking superpowers</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+            <p class="p-left-side">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
             <div class="btn-header">
-                <button class="btn-get-started"></button>
-                <button class="watch-the-video"></button>
+                <button class="btn-header-get-started">Get started</button>
+                <button class="btn-header-watch-the-video"><img src="images/Triangle-Copy-6.png" alt="yellow triangle" width="20px" height="17px">Watch the Video</button>
             </div>
         </div>
         <img src="images/Image-header-oval.png" alt="three happy people" width="605px" height="494.83px">
     </header>
     <section class="feature">
-        <h2>We design tools to unveil your superpowers</h2>
+        <h2 class="h2-feature">We design tools to unveil your superpowers</h2>
         <div class="feature-cards">
             <div class="card">
                 <img src="images/icon-card-4.png" alt="purple square with hite cursor" width="51px" height="50px">
@@ -68,56 +72,56 @@
     </section>
     <section class="effortless-validation">
         <div class="effortless-validation-text">
-            <p>Effortless Validation for</p>
-            <h2>Design Professionals</h2>
-            <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
-            <h4>Accessory makers</h4>
-            <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
-            <h4>Alterationists</h4>
-            <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
-            <h4>Custom Design designers</h4>
-            <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            <p class="p-start-effortless-validation">Effortless Validation for</p>
+            <h2 class="h2-effortless-validation">Design Professionals</h2>
+            <p class="p-effortless-validation">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <h4 class="h4-effortless-validation">Accessory makers</h4>
+            <p class="p-effortless-validation">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+            <h4 class="h4-effortless-validation">Alterationists</h4>
+            <p class="p-effortless-validation">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            <h4 class="h4-effortless-validation">Custom Design designers</h4>
+            <p class="p-effortless-validation">If you are looking for a new way to promote your business that won’t cost you more money, </p>
         </div>
         <img src="images/Image-effortless-validation.png" alt="a male teacher pointing to te4xt bubbles" width="520px" height="574px">
     </section>
     <section class="product-managers">
         <img src="images/Image-product-managers.png" alt="A man working on his computer" width="535px" height="521px">
         <div class="product-managers-text">
-            <p>Easier decision making for</p>
-            <h2>Product Managers</h2>
-            <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <p class="p-start-product-managers-text">Easier decision making for</p>
+            <h2 class="h2-product-managers-text">Product Managers</h2>
+            <p class="p-product-managers-text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
             <div class="product-managers-text-n-logo">
                 <img src="images/icon-product-managers.png" alt="Yellow box with white tick" width="35px" height="35px">
-                <p>Never worry about overpaying for your energy again. </p>
+                <p class="p-product-managers-text-n-logo">Never worry about overpaying for your energy again. </p>
             </div>
             <div class="product-managers-text-n-logo">
                 <img src="images/icon-product-managers.png" alt="Yellow box with white tick" width="35px" height="35px">
-                <p>We will only switch you to energy companies that we trust and will treat you right</p>
+                <p class="p-product-managers-text-n-logo">We will only switch you to energy companies that we trust and will treat you right</p>
             </div>
             <div class="product-managers-text-n-logo">
                 <img src="images/icon-product-managers.png" alt="Yellow box with white tick" width="35px" height="35px">
-                <p>We track the markets daily and know where the savings are.</p>
+                <p class="p-product-managers-text-n-logo">We track the markets daily and know where the savings are.</p>
             </div>
         </div>
     </section>
     <section class="marketers">
         <div class="marketers-text">
             <div class="marketers-title">
-                <p>Optimisation for</p>
-                <h2>Marketers</h2>
-                <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
+                <p class="p-start-marketers-title">Optimisation for</p>
+                <h2 class="h2-marketers-title">Marketers</h2>
+                <p class="p-marketers-title">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
             </div>
             <div class="marketers-small-textblock">
-                <h4>Accessory makers</h4>
-                <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                <h4 class="h4-marketers-small-textblock">Accessory makers</h4>
+                <p class="p-marketers-small-textblock">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
             </div>
             <div class="marketers-small-textblock">
-                <h4>Alterationists</h4>
-                <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                <h4 class="h4-marketers-small-textblock">Alterationists</h4>
+                <p class="p-marketers-small-textblock">If you are looking for a new way to promote your business that won’t cost you more money, </p>
             </div>
             <div class="marketers-small-textblock">
-                <h4>Custom Design designers</h4>
-                <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                <h4 class="h4-marketers-small-textblock">Custom Design designers</h4>
+                <p class="p-marketers-small-textblock">If you are looking for a new way to promote your business that won’t cost you more money, </p>
             </div>
         </div>
         <img src="images/Image-marketers.png" alt="man pointing to digital interactive screen on wall" width="542px" height="609px">
@@ -128,24 +132,24 @@
 
         </div>
         <div class="container-logo">
-            <img src="images/Bitmap-logo.png" alt="small logo" width="31.17px" height="32px">
-            <img src="images/Productly-name-logo.png" alt="logo name" width="143.12px" height="28.97px">
+            <img class="img-logo" src="images/Bitmap-logo.png" alt="small logo" width="30px" height="30px">
+            <img src="images/Productly-name-logo.png" alt="logo name" width="142.35px" height="28.97px">
         </div>
         <div class="quick-links">
-            <ol>
+            <ul>
                 <li>About Us</li>
                 <li>Blog</li>
                 <li>Contact</li>
                 <li>FAQ</li>
-            </ol>
+            </ul>
         </div>
         <div class="legal-stuff">
-            <ol>
+            <ul>
                 <li>Disclaimer</li>
                 <li>Financing</li>
                 <li>Privacy Policy</li>
                 <li>Terms of Service</li>
-            </ol>
+            </ul>
         </div>
         <div class="footer-3">
             <div class="text-box">
